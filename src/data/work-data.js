@@ -30,7 +30,8 @@ const data = [
     projectType: 'node',
     href: 'https://orel-weather-app.herokuapp.com/',
     title: 'Weather App',
-    description: 'This app focuses on learning about socket.io',
+    description:
+      'In this node app I work with the weather API and focus on proper page routing.',
   },
   {
     id: 5,
