@@ -7,7 +7,7 @@ export default function PortfolioItem(props) {
   return (
     <div className="portfolio__item">
       <div
-        className={`portfolio__side portfolio__side--front ${projectType}--front`}
+        className={`portfolio__side portfolio__side--front ${projectType.toLowerCase()}--front`}
       >
         <Image src={imageSrc} alt="" className="portfolio__image" />
         <h3>{projectType}</h3>

@@ -2,7 +2,7 @@ const data = [
   {
     id: 1,
     imageSrc: './images/chatApp-cropped.jpg',
-    projectType: 'node',
+    projectType: 'Node',
     href: 'https://orelkris-chat-app.herokuapp.com/',
     title: 'Chat App',
     description: 'This app focuses on learning about socket.io',
@@ -10,7 +10,7 @@ const data = [
   {
     id: 2,
     imageSrc: './images/etchASketch-cropped.jpg',
-    projectType: 'js',
+    projectType: 'JS',
     href: 'https://orelkris.github.io/etchASketch/',
     title: 'Etch A Sketch',
     description:
@@ -19,7 +19,7 @@ const data = [
   {
     id: 3,
     imageSrc: './images/meme-react-cropped.jpg',
-    projectType: 'react',
+    projectType: 'React',
     href: 'https://orelkris.github.io/memeGenerator/',
     title: 'Meme Generator',
     description: 'In this project I explore basic usage of forms with React.',
@@ -27,7 +27,7 @@ const data = [
   {
     id: 4,
     imageSrc: './images/weather-node-cropped.jpg',
-    projectType: 'node',
+    projectType: 'Node',
     href: 'https://orel-weather-app.herokuapp.com/',
     title: 'Weather App',
     description:
@@ -36,7 +36,7 @@ const data = [
   {
     id: 5,
     imageSrc: './images/rockPaperScissors-cropped.jpg',
-    projectType: 'js',
+    projectType: 'JS',
     href: 'https://orelkris.github.io/rockPaperScissors/',
     title: 'Rock, Paper, Scissors',
     description:
@@ -45,7 +45,7 @@ const data = [
   {
     id: 6,
     imageSrc: './images/dall-e-fanpage-cropped.jpg',
-    projectType: 'react',
+    projectType: 'React',
     href: 'https://orelkris.github.io/dall-e-fan-page/',
     title: 'Dall E Fanpage',
     description:
@@ -54,15 +54,16 @@ const data = [
   {
     id: 7,
     imageSrc: './images/tenzies-react-cropped.jpg',
-    projectType: 'react',
+    projectType: 'React',
     href: 'https://orelkris.github.io/tenzies',
     title: 'Tenzies',
-    description: 'This app focuses on learning about socket.io',
+    description:
+      'This app focuses on learning about maintaining state in the parent component and passing it down to the children components as props. One source of truth!',
   },
   {
     id: 8,
     imageSrc: './images/gameOfWar-cropped.jpg',
-    projectType: 'js',
+    projectType: 'JS',
     href: 'https://orelkris.github.io/gameOfWar/',
     title: 'Basic Game of War',
     description:
@@ -71,7 +72,7 @@ const data = [
   {
     id: 9,
     imageSrc: './images/layout-2.jpg',
-    projectType: 'layout',
+    projectType: 'Layout',
     href: 'https://orelkris.github.io/heroLayout/',
     title: 'Hero Layout',
     description: 'This is an example of a Hero layout.',
@@ -79,7 +80,7 @@ const data = [
   {
     id: 10,
     imageSrc: './images/typingGame-cropped.jpg',
-    projectType: 'react',
+    projectType: 'React',
     href: 'https://orelkris.github.io/typingGame/',
     title: 'Typing Game',
     description:
@@ -88,7 +89,7 @@ const data = [
   {
     id: 11,
     imageSrc: './images/landingPage.jpg',
-    projectType: 'layout',
+    projectType: 'Layout',
     href: 'https://orelkris.github.io/landing-page/',
     title: 'Learning Flexbox',
     description: 'This is my first brush with using Flexbox to create layout.',
