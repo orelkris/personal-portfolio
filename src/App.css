@@ -684,6 +684,7 @@ strong {
 }
 
 .portfolio__item:hover .portfolio__side--back {
+  background-color: rgba(255, 255, 255, 0.5);
   transform: rotateY(0deg);
 }
 
