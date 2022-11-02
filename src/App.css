@@ -551,7 +551,7 @@ strong {
 .service {
   max-width: 30rem;
   width: 30%;
-  margin: 0 auto;
+  margin: 0 auto 1.5rem;
 }
 
 @media screen and (max-width: 900px) {
