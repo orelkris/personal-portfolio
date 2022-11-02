@@ -4,9 +4,8 @@ import connectData from '../data/connect-data';
 
 export default function Footer(props) {
   const connectElements = connectData.map((data) => (
-    <li className="connect-list__item">
+    <li key={data.id} className="connect-list__item">
       <Connect
-        key={data.id}
         href={data.href}
         target={data.target}
         styles={data.styles}

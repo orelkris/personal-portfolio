@@ -169,6 +169,45 @@ a {
   text-decoration: none;
 }
 
+.badge {
+  padding: 2px 5px;
+  border-radius: 3px;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.red {
+  background: rgb(187, 29, 29);
+}
+
+.orange {
+  background: orange;
+}
+
+.yellow {
+  background: #fbd070;
+  color: #8e6c14;
+}
+
+.green {
+  background: rgb(63, 184, 63);
+}
+
+.lightblue {
+  background: rgb(53, 177, 248);
+}
+
+.blue {
+  background: rgb(9, 57, 160);
+}
+
+.purple {
+  background: rgb(235, 53, 174);
+}
+
 .btn {
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
@@ -581,7 +620,7 @@ strong {
   .about__image {
     grid-area: img;
     position: relative;
-    left: -2em;
+    left: -1em;
     grid-row: 1 / -1;
     grid-column: 2;
   }
@@ -684,7 +723,7 @@ strong {
 }
 
 .portfolio__item:hover .portfolio__side--back {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
   transform: rotateY(0deg);
 }
 

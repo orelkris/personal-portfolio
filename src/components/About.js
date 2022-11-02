@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from './Image';
+import Badge from './Badge';
 
 export default function About() {
   return (
@@ -10,13 +11,22 @@ export default function About() {
       </p>
       <div className="about__body">
         <p>
-          I am a junior web developer. I am constantly trying to improve my
-          development skills. I really enjoy looking at designs and replicating
-          them.
+          I am a junior web developer and I really enjoy taking on design and
+          development challenges. I am constantly trying to improve my
+          development knowledge by researching new technologies and taking
+          online courses.
         </p>
         <p>
-          I am also interested in watching movies. Some of my favorite movies
-          are: Scarface, The Thing, '71, Good Time.
+          I also have a lot of personal interests like: watching movies, playing
+          piano, weight lifting and going on long hikes. For anyone interested I
+          would like to recommend some of my top favorite movies:{' '}
+          <Badge color="red">Midnight&nbsp;Run</Badge>,
+          <Badge color="orange">Scarface</Badge>,{' '}
+          <Badge color="yellow">The&nbsp;Thing</Badge>,{' '}
+          <Badge color="green">'71</Badge>,{' '}
+          <Badge color="lightblue">Good&nbsp;Time</Badge>,{' '}
+          <Badge color="blue">The&nbsp;Lighthouse</Badge> and{' '}
+          <Badge color="purple">Roma</Badge>.
         </p>
       </div>
       <Image
