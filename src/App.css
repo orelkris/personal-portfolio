@@ -507,6 +507,8 @@ strong {
   color: var(--clr-darkest);
   box-shadow: var(--box-shadow-all);
   position: relative;
+
+  transition: height 999999s;
 }
 
 .section__title--services::after {
