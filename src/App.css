@@ -525,7 +525,6 @@ strong {
 }
 
 .services__background {
-  background-color: var(--clr-dark);
   background: linear-gradient(
       180deg,
       rgb(18, 189, 180),
