@@ -20,7 +20,7 @@ export default function About() {
           I also have a lot of personal interests like: watching movies, playing
           piano, weight lifting and going on long hikes. For anyone interested I
           would like to recommend some of my top favorite movies:{' '}
-          <Badge color="red">Midnight&nbsp;Run</Badge>,
+          <Badge color="red">Midnight&nbsp;Run</Badge>,{' '}
           <Badge color="orange">Scarface</Badge>,{' '}
           <Badge color="yellow">The&nbsp;Thing</Badge>,{' '}
           <Badge color="green">'71</Badge>,{' '}
