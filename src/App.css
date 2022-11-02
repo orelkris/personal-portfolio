@@ -507,7 +507,6 @@ strong {
   color: var(--clr-darkest);
   box-shadow: var(--box-shadow-all);
   position: relative;
-  overflow-y: hidden;
 }
 
 .section__title--services::after {
@@ -543,7 +542,7 @@ strong {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   z-index: -1;
 }
