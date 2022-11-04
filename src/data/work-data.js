@@ -62,12 +62,12 @@ const data = [
   },
   {
     id: 8,
-    imageSrc: './images/gameOfWar-cropped.jpg',
-    projectType: 'JS',
-    href: 'https://orelkris.github.io/gameOfWar/',
-    title: 'Basic Game of War',
+    imageSrc: './images/tic-tac-toe-cropped.jpg',
+    projectType: 'React',
+    href: 'https://orelkris.github.io/tic-tac-toe/',
+    title: 'Tic Tac Toe',
     description:
-      'This is not a complete game of war but it demonstrates the ability to use the card API.',
+      'This is a simple Tic Tac Toe game. It focuses on maintaining states for different game objects passing down and props to children components. There are also basic CSS animations involved to make the game-play look smoother!',
   },
   {
     id: 9,
