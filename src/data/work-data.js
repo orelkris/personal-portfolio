@@ -67,7 +67,7 @@ const data = [
     href: 'https://orelkris.github.io/tic-tac-toe/',
     title: 'Tic Tac Toe',
     description:
-      'This is a simple Tic Tac Toe game. It focuses on maintaining states for different game objects passing down and props to children components. There are also basic CSS animations involved to make the game-play look smoother!',
+      'This is a simple Tic Tac Toe game. It focuses on maintaining states for different game objects and passing down props to children components. There are also basic CSS animations involved to make the game-play look smoother!',
   },
   {
     id: 9,
