@@ -208,6 +208,39 @@ a {
   background: rgb(235, 53, 174);
 }
 
+.color-fancy {
+  color: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #0f9b0f,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #0f9b0f,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  box-shadow: var(--box-shadow);
+  display: inline-block;
+  margin-left: 0.5rem;
+  transition: all 500ms;
+}
+
+.color-fancy:hover,
+.color-fancy:focus {
+  box-shadow: var(--box-shadow-purple);
+  transform: scale(1.1);
+}
+
+.color-fancy a {
+  color: #fff;
+}
+
+.color-fancy a:hover {
+  color: rgb(243, 77, 77);
+}
+
 .btn {
   font-family: var(--ff-primary);
   font-size: var(--fs-body);

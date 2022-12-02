@@ -17,6 +17,19 @@ export default function About() {
           online courses.
         </p>
         <p>
+          I've also been interested in game development and have some experience
+          on working with Unity. Check out a basic game trailer that me and my
+          team built for our Capstone project:
+          <Badge color="color-fancy">
+            <a
+              href="https://www.youtube.com/watch?v=7mQkaWR8BLM&ab_channel=KristinaOrel"
+              target="blank"
+            >
+              Trailer
+            </a>
+          </Badge>
+        </p>
+        <p>
           I also have a lot of personal interests like: watching movies, playing
           piano, weight lifting and going on long hikes. For anyone interested I
           would like to recommend some of my top favorite movies:{' '}
